@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "jshint": "^2.13.4",
+    "nodemon": "^2.0.16"
+  },
+  "name": "dental_front",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "nodemon /index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

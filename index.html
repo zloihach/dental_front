@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/big.svg">
+    <title>Dental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter" media="all">
+</head>
+<body style="font-family: Inter">
+
+<!-- Section 1 -->
+<section class="relative w-full px-8 text-blue-500 bg-white body-font">
+    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
+        <a href="#_" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-blue-500 select-none text-blue">Dental</a>
+
+        <nav class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
+            <a href="#_" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Главная</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="#_" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block clinic">Клиники</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="#_" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block help">Помощь</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="#_" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">О нас</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+        </nav>
+
+        <div class="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
+            <a href="login.html" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none">Войти</a>
+            <span class="inline-flex rounded-md shadow-sm">
+                <a href="#" class=""></a>
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2 -->
+<section class="px-2 py-32 bg-white md:px-0">
+  <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+    <div class="flex flex-wrap items-center sm:-mx-3">
+      <div class="w-full md:w-1/2 md:px-3">
+        <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <span class="block xl:inline">Dental</span>
+            <span class="block text-blue-500 xl:inline">Самые технологичные</span>
+          </h1>
+          <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl"></p>
+          <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+            <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-500 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto ">
+              Попробуйте
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12" class=""></line><polyline points="12 5 19 12 12 19" class=""></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+            <img src="./img/1fe1474eacd0451ac51e59ca8eda83903.jpg" class="">
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3 -->
+<section class="py-20 bg-white">
+    <div class="container max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold tracking-tight text-center">Наши преимущества</h2>
+        <p class="mt-2 text-lg text-center text-gray-600">Да, мы действительно лучших в этих аспектах</p>
+        <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+
+            <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60167 5.14924L5.29707 4.46388L5.29707 4.46389L5.60167 5.14924ZM10.8077 2.83544L11.1123 3.5208L11.1123 3.5208L10.8077 2.83544ZM14.1922 2.83544L14.4968 2.15008L14.4968 2.15008L14.1922 2.83544ZM19.3776 5.14007L19.073 5.82543L19.073 5.82543L19.3776 5.14007ZM3.1979 8.9624L2.44917 9.00602L2.44917 9.00602L3.1979 8.9624ZM10.3498 21.5385L10.7702 20.9174L10.7702 20.9174L10.3498 21.5385ZM14.6506 21.5392L15.0718 22.1598L15.0718 22.1598L14.6506 21.5392ZM21.7831 8.98468L21.0346 8.93666L21.0346 8.93666L21.7831 8.98468ZM5.90628 5.8346L11.1123 3.5208L10.5031 2.15008L5.29707 4.46389L5.90628 5.8346ZM13.8876 3.5208L19.073 5.82543L19.6822 4.45471L14.4968 2.15008L13.8876 3.5208ZM2.44917 9.00602C2.64014 12.2847 3.21983 14.7319 4.43215 16.7992C5.64321 18.8644 7.4423 20.4758 9.92931 22.1595L10.7702 20.9174C8.36337 19.288 6.77383 17.8271 5.72608 16.0404C4.67958 14.2559 4.13027 12.0716 3.94663 8.91879L2.44917 9.00602ZM15.0718 22.1598C17.5694 20.4649 19.3545 18.8382 20.5536 16.771C21.7531 14.7033 22.324 12.2684 22.5316 9.0327L21.0346 8.93666C20.8347 12.0528 20.2938 14.2296 19.2561 16.0184C18.2182 17.8076 16.6408 19.2823 14.2295 20.9186L15.0718 22.1598ZM9.92931 22.1595C11.4789 23.2087 13.5213 23.212 15.0718 22.1598L14.2295 20.9186C13.189 21.6247 11.8135 21.6238 10.7702 20.9174L9.92931 22.1595ZM11.1123 3.5208C11.9958 3.12816 13.0042 3.12816 13.8876 3.5208L14.4968 2.15008C13.2255 1.58506 11.7744 1.58507 10.5031 2.15008L11.1123 3.5208ZM19.073 5.82543C20.3265 6.38252 21.1192 7.61932 21.0346 8.93666L22.5316 9.0327C22.6595 7.03809 21.4615 5.24549 19.6822 4.45471L19.073 5.82543ZM5.29707 4.46389C3.53049 5.24903 2.33367 7.02308 2.44917 9.00602L3.94663 8.91879C3.87049 7.61154 4.66115 6.38799 5.90628 5.8346L5.29707 4.46389ZM14.875 12.5C14.875 13.8117 13.8117 14.875 12.5 14.875V16.375C14.6401 16.375 16.375 14.6401 16.375 12.5H14.875ZM12.5 14.875C11.1883 14.875 10.125 13.8117 10.125 12.5H8.62498C8.62498 14.6401 10.3599 16.375 12.5 16.375V14.875ZM10.125 12.5C10.125 11.1883 11.1883 10.125 12.5 10.125V8.625C10.3599 8.625 8.62498 10.3599 8.62498 12.5H10.125ZM12.5 10.125C13.8117 10.125 14.875 11.1883 14.875 12.5H16.375C16.375 10.3599 14.6401 8.625 12.5 8.625V10.125Z" fill="white"/>
+                        </svg>
+                                             
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Мы рядом</h4>
+                <p class="text-base text-center text-gray-500">Сеть клиник <span class="text-blue-500">Dental</span> позволит вам воспользоваться услугами наших специалистов рядом с вашим домом</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.25 6V5.25C1.83579 5.25 1.5 5.58579 1.5 6H2.25ZM24.75 6H25.5C25.5 5.58579 25.1642 5.25 24.75 5.25V6ZM7.85688 15.6141C7.64377 15.9693 7.75894 16.43 8.11413 16.6431C8.46931 16.8562 8.93001 16.7411 9.14312 16.3859L7.85688 15.6141ZM9.85281 13.7453L9.20969 13.3594L9.20969 13.3594L9.85281 13.7453ZM17.1472 13.2547L16.5041 12.8688L16.5041 12.8688L17.1472 13.2547ZM19.1431 11.3859C19.3562 11.0307 19.2411 10.57 18.8859 10.3569C18.5307 10.1438 18.07 10.2589 17.8569 10.6141L19.1431 11.3859ZM14.25 21C14.25 20.5858 13.9142 20.25 13.5 20.25C13.0858 20.25 12.75 20.5858 12.75 21H14.25ZM12.75 26C12.75 26.4142 13.0858 26.75 13.5 26.75C13.9142 26.75 14.25 26.4142 14.25 26H12.75ZM3.5 1.75H23.5V0.25H3.5V1.75ZM23.5 5.25H3.5V6.75H23.5V5.25ZM3.5 5.25C2.5335 5.25 1.75 4.4665 1.75 3.5H0.25C0.25 5.29493 1.70508 6.75 3.5 6.75V5.25ZM25.25 3.5C25.25 4.4665 24.4665 5.25 23.5 5.25V6.75C25.2949 6.75 26.75 5.29493 26.75 3.5H25.25ZM23.5 1.75C24.4665 1.75 25.25 2.5335 25.25 3.5H26.75C26.75 1.70507 25.2949 0.25 23.5 0.25V1.75ZM3.5 0.25C1.70507 0.25 0.25 1.70507 0.25 3.5H1.75C1.75 2.5335 2.5335 1.75 3.5 1.75V0.25ZM2.25 6.75H24.75V5.25H2.25V6.75ZM24 6V18.5H25.5V6H24ZM22.25 20.25H4.75V21.75H22.25V20.25ZM3 18.5V6H1.5V18.5H3ZM4.75 20.25C3.7835 20.25 3 19.4665 3 18.5H1.5C1.5 20.2949 2.95507 21.75 4.75 21.75V20.25ZM24 18.5C24 19.4665 23.2165 20.25 22.25 20.25V21.75C24.0449 21.75 25.5 20.2949 25.5 18.5H24ZM9.14312 16.3859L10.4959 14.1312L9.20969 13.3594L7.85688 15.6141L9.14312 16.3859ZM17.7903 13.6406L19.1431 11.3859L17.8569 10.6141L16.5041 12.8688L17.7903 13.6406ZM12.9143 13.9685C14.21 15.588 16.7233 15.419 17.7903 13.6406L16.5041 12.8688C15.9748 13.7509 14.7283 13.8347 14.0857 13.0315L12.9143 13.9685ZM10.4959 14.1312C11.0252 13.2491 12.2717 13.1653 12.9143 13.9685L14.0857 13.0315C12.79 11.412 10.2767 11.581 9.20969 13.3594L10.4959 14.1312ZM12.75 21V26H14.25V21H12.75Z" fill="white"/>
+                        </svg>                        
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Рейтинги</h4>
+                <p class="text-base text-center text-gray-500">Обладатели крупных федеральных наград в сфере оказания медицинских услуг</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.8938 15.4538L21.6485 16.1625L21.6485 16.1625L21.8938 15.4538ZM21.8938 9.54622L22.1392 10.2549L22.1392 10.2549L21.8938 9.54622ZM3.10612 15.4538L3.35149 16.1625L3.35149 16.1625L3.10612 15.4538ZM3.10612 9.54622L2.86075 10.2549L2.86075 10.2549L3.10612 9.54622ZM16.1553 9.90533C16.4482 9.61244 16.4482 9.13756 16.1553 8.84467C15.8624 8.55178 15.3875 8.55178 15.0947 8.84467L16.1553 9.90533ZM8.84465 15.0947C8.55176 15.3876 8.55176 15.8624 8.84465 16.1553C9.13754 16.4482 9.61242 16.4482 9.90531 16.1553L8.84465 15.0947ZM6.24998 21.125C4.36301 21.125 2.83331 19.5953 2.83331 17.7083H1.33331C1.33331 20.4237 3.53458 22.625 6.24998 22.625V21.125ZM22.1666 17.7083C22.1666 19.5953 20.637 21.125 18.75 21.125V22.625C21.4654 22.625 23.6666 20.4237 23.6666 17.7083H22.1666ZM18.75 3.875C20.637 3.875 22.1666 5.40469 22.1666 7.29167H23.6666C23.6666 4.57627 21.4654 2.375 18.75 2.375V3.875ZM6.24998 2.375C3.53458 2.375 1.33331 4.57627 1.33331 7.29167H2.83331C2.83331 5.40469 4.36301 3.875 6.24998 3.875V2.375ZM22.1392 14.7451C21.2083 14.4228 20.5416 13.5383 20.5416 12.5H19.0416C19.0416 14.1971 20.1322 15.6375 21.6485 16.1625L22.1392 14.7451ZM20.5416 12.5C20.5416 11.4617 21.2083 10.5772 22.1392 10.2549L21.6485 8.83749C20.1322 9.36246 19.0416 10.8029 19.0416 12.5H20.5416ZM4.45831 12.5C4.45831 13.5383 3.79162 14.4228 2.86075 14.7451L3.35149 16.1625C4.86778 15.6375 5.95831 14.1971 5.95831 12.5H4.45831ZM2.86075 10.2549C3.79162 10.5772 4.45831 11.4617 4.45831 12.5H5.95831C5.95831 10.8029 4.86778 9.36246 3.35149 8.83749L2.86075 10.2549ZM23.6666 8.33333V7.29167H22.1666V8.33333H23.6666ZM22.1666 16.6667V17.7083H23.6666V16.6667H22.1666ZM1.33331 16.6667V17.7083H2.83331V16.6667H1.33331ZM2.83331 8.33333V7.29167H1.33331V8.33333H2.83331ZM18.75 21.125H6.24998V22.625H18.75V21.125ZM18.75 2.375H6.24998V3.875H18.75V2.375ZM2.86075 14.7451C2.16033 14.9876 1.33331 15.6412 1.33331 16.6667H2.83331C2.83331 16.5993 2.85891 16.5157 2.94733 16.4179C3.03973 16.3156 3.18309 16.2208 3.35149 16.1625L2.86075 14.7451ZM22.1392 10.2549C22.8396 10.0124 23.6666 9.3588 23.6666 8.33333H22.1666C22.1666 8.4007 22.1411 8.48425 22.0526 8.58211C21.9602 8.68436 21.8169 8.77919 21.6485 8.8375L22.1392 10.2549ZM3.35149 8.83749C3.18309 8.77919 3.03973 8.68436 2.94733 8.58211C2.85891 8.48425 2.83331 8.4007 2.83331 8.33333H1.33331C1.33331 9.3588 2.16033 10.0124 2.86075 10.2549L3.35149 8.83749ZM21.6485 16.1625C21.8169 16.2208 21.9602 16.3156 22.0526 16.4179C22.1411 16.5157 22.1666 16.5993 22.1666 16.6667H23.6666C23.6666 15.6412 22.8396 14.9876 22.1392 14.7451L21.6485 16.1625ZM9.66665 9.375C9.66665 9.53608 9.53606 9.66667 9.37498 9.66667V11.1667C10.3645 11.1667 11.1666 10.3645 11.1666 9.375H9.66665ZM9.37498 9.66667C9.2139 9.66667 9.08331 9.53608 9.08331 9.375H7.58331C7.58331 10.3645 8.38547 11.1667 9.37498 11.1667V9.66667ZM9.08331 9.375C9.08331 9.21392 9.2139 9.08333 9.37498 9.08333V7.58333C8.38547 7.58333 7.58331 8.38549 7.58331 9.375H9.08331ZM9.37498 9.08333C9.53606 9.08333 9.66665 9.21392 9.66665 9.375H11.1666C11.1666 8.38549 10.3645 7.58333 9.37498 7.58333V9.08333ZM15.9166 15.625C15.9166 15.7861 15.7861 15.9167 15.625 15.9167V17.4167C16.6145 17.4167 17.4166 16.6145 17.4166 15.625H15.9166ZM15.625 15.9167C15.4639 15.9167 15.3333 15.7861 15.3333 15.625H13.8333C13.8333 16.6145 14.6355 17.4167 15.625 17.4167V15.9167ZM15.3333 15.625C15.3333 15.4639 15.4639 15.3333 15.625 15.3333V13.8333C14.6355 13.8333 13.8333 14.6355 13.8333 15.625H15.3333ZM15.625 15.3333C15.7861 15.3333 15.9166 15.4639 15.9166 15.625H17.4166C17.4166 14.6355 16.6145 13.8333 15.625 13.8333V15.3333ZM15.0947 8.84467L8.84465 15.0947L9.90531 16.1553L16.1553 9.90533L15.0947 8.84467Z" fill="white"/>
+                        </svg>
+                        
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Семейная традиция</h4>
+                <p class="text-base text-center text-gray-500">Получайте семейную скидочную карту за регулярные наблюдения у специалостов</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.87331 15.0645C9.56373 14.7893 9.08967 14.8172 8.81448 15.1268C8.5393 15.4364 8.56718 15.9104 8.87677 16.1856L9.87331 15.0645ZM16.1233 16.1856C16.4329 15.9104 16.4608 15.4364 16.1856 15.1268C15.9104 14.8172 15.4364 14.7893 15.1268 15.0645L16.1233 16.1856ZM16.9584 10.4167C16.9584 10.5778 16.8278 10.7084 16.6667 10.7084V12.2084C17.6562 12.2084 18.4584 11.4062 18.4584 10.4167H16.9584ZM16.6667 10.7084C16.5056 10.7084 16.375 10.5778 16.375 10.4167H14.875C14.875 11.4062 15.6772 12.2084 16.6667 12.2084V10.7084ZM16.375 10.4167C16.375 10.2556 16.5056 10.125 16.6667 10.125V8.62504C15.6772 8.62504 14.875 9.4272 14.875 10.4167H16.375ZM16.6667 10.125C16.8278 10.125 16.9584 10.2556 16.9584 10.4167H18.4584C18.4584 9.4272 17.6562 8.62504 16.6667 8.62504V10.125ZM22.1667 12.5C22.1667 17.8388 17.8388 22.1667 12.5 22.1667V23.6667C18.6672 23.6667 23.6667 18.6672 23.6667 12.5H22.1667ZM12.5 22.1667C7.16129 22.1667 2.83337 17.8388 2.83337 12.5H1.33337C1.33337 18.6672 6.33286 23.6667 12.5 23.6667V22.1667ZM2.83337 12.5C2.83337 7.16129 7.16129 2.83337 12.5 2.83337V1.33337C6.33286 1.33337 1.33337 6.33286 1.33337 12.5H2.83337ZM12.5 2.83337C17.8388 2.83337 22.1667 7.16129 22.1667 12.5H23.6667C23.6667 6.33286 18.6672 1.33337 12.5 1.33337V2.83337ZM8.62504 10.4167C8.62504 10.5778 8.49446 10.7084 8.33337 10.7084V12.2084C9.32288 12.2084 10.125 11.4062 10.125 10.4167H8.62504ZM8.33337 10.7084C8.17229 10.7084 8.04171 10.5778 8.04171 10.4167H6.54171C6.54171 11.4062 7.34386 12.2084 8.33337 12.2084V10.7084ZM8.04171 10.4167C8.04171 10.2556 8.17229 10.125 8.33337 10.125V8.62504C7.34386 8.62504 6.54171 9.4272 6.54171 10.4167H8.04171ZM8.33337 10.125C8.49446 10.125 8.62504 10.2556 8.62504 10.4167H10.125C10.125 9.4272 9.32288 8.62504 8.33337 8.62504V10.125ZM9.37504 15.625C8.87677 16.1856 8.877 16.1858 8.87724 16.186C8.87732 16.1861 8.87756 16.1863 8.87773 16.1865C8.87807 16.1868 8.87843 16.1871 8.87881 16.1874C8.87956 16.1881 8.88039 16.1888 8.88129 16.1896C8.8831 16.1912 8.8852 16.193 8.8876 16.1951C8.89241 16.1992 8.8984 16.2044 8.90558 16.2104C8.91992 16.2225 8.939 16.2382 8.96272 16.2571C9.01014 16.2947 9.07627 16.345 9.16037 16.4035C9.32831 16.5203 9.56953 16.6712 9.87791 16.8207C10.4947 17.1198 11.3877 17.4167 12.5 17.4167V15.9167C11.6592 15.9167 10.9897 15.6928 10.5323 15.471C10.3036 15.3601 10.1298 15.2506 10.017 15.1721C9.96068 15.133 9.92 15.1018 9.8957 15.0825C9.88356 15.0729 9.87555 15.0662 9.87178 15.0631C9.86989 15.0615 9.86907 15.0608 9.86932 15.061C9.86945 15.0611 9.86984 15.0614 9.87051 15.062C9.87084 15.0623 9.87124 15.0626 9.87171 15.0631C9.87194 15.0633 9.87219 15.0635 9.87246 15.0637C9.87259 15.0638 9.87281 15.064 9.87287 15.0641C9.87309 15.0643 9.87331 15.0645 9.37504 15.625ZM12.5 17.4167C13.6123 17.4167 14.5053 17.1198 15.1222 16.8207C15.4306 16.6712 15.6718 16.5203 15.8397 16.4035C15.9238 16.345 15.9899 16.2947 16.0374 16.2571C16.0611 16.2382 16.0802 16.2225 16.0945 16.2104C16.1017 16.2044 16.1077 16.1992 16.1125 16.1951C16.1149 16.193 16.117 16.1912 16.1188 16.1896C16.1197 16.1888 16.1205 16.1881 16.1213 16.1874C16.1217 16.1871 16.122 16.1868 16.1224 16.1865C16.1225 16.1863 16.1228 16.1861 16.1228 16.186C16.1231 16.1858 16.1233 16.1856 15.625 15.625C15.1268 15.0645 15.127 15.0643 15.1272 15.0641C15.1273 15.064 15.1275 15.0638 15.1276 15.0637C15.1279 15.0635 15.1281 15.0633 15.1284 15.0631C15.1288 15.0626 15.1292 15.0623 15.1296 15.062C15.1302 15.0614 15.1306 15.0611 15.1308 15.061C15.131 15.0608 15.1302 15.0615 15.1283 15.0631C15.1245 15.0662 15.1165 15.0729 15.1044 15.0825C15.0801 15.1018 15.0394 15.133 14.9831 15.1721C14.8703 15.2506 14.6965 15.3601 14.4678 15.471C14.0104 15.6928 13.3409 15.9167 12.5 15.9167V17.4167Z" fill="white"/>
+                        </svg>
+                        
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Дарим улыбки</h4>
+                <p class="text-base text-center text-gray-500">Врачи нашейт стоматологии всегда готовы прийти вам на помощь и спасти ваши зубки</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2474 7.81426C17.536 7.49355 17.51 6.99957 17.1893 6.71093C16.8686 6.42229 16.3746 6.44829 16.086 6.769L9.82038 13.7308L8.82138 12.9316C8.48446 12.662 7.99283 12.7167 7.72329 13.0536C7.45375 13.3905 7.50838 13.8821 7.8453 14.1517L8.77336 14.8941L8.02598 15.7246C7.56455 16.2373 6.78336 16.3012 6.24474 15.8703L2.57138 12.9316C2.23446 12.662 1.74283 12.7167 1.47329 13.0536C1.20375 13.3905 1.25838 13.8821 1.5953 14.1517L5.26866 17.0904C6.45361 18.0383 8.17223 17.8978 9.18738 16.7698L9.99553 15.8719L11.5187 17.0904C12.7036 18.0383 14.4222 17.8978 15.4374 16.7698L23.4974 7.81426C23.786 7.49355 23.76 6.99957 23.4393 6.71093C23.1186 6.42229 22.6246 6.44829 22.336 6.769L14.276 15.7246C13.8145 16.2373 13.0334 16.3012 12.4947 15.8703L11.0425 14.7085L17.2474 7.81426Z" fill="white"/>
+                        </svg>
+                        
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Высокие стандарты</h4>
+                <p class="text-base text-center text-gray-500">Наши клиники сертифицированы и работают по всем современным стандартам!</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                <div class="p-3 text-white bg-blue-500 rounded-full">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.25 9.37492C13.25 8.96071 12.9142 8.62492 12.5 8.62492C12.0858 8.62492 11.75 8.96071 11.75 9.37492H13.25ZM13.0758 12.7878L13.4112 12.117L13.4112 12.117L13.0758 12.7878ZM14.2479 14.2124C14.6184 14.3976 15.0689 14.2475 15.2542 13.877C15.4394 13.5065 15.2892 13.056 14.9188 12.8708L14.2479 14.2124ZM11.75 9.37492V11.8561H13.25V9.37492H11.75ZM12.7404 13.4586L14.2479 14.2124L14.9188 12.8708L13.4112 12.117L12.7404 13.4586ZM11.75 11.8561C11.75 12.5348 12.1334 13.1552 12.7404 13.4586L13.4112 12.117C13.3124 12.0676 13.25 11.9666 13.25 11.8561H11.75ZM6.25001 2.83325H18.75V1.33325H6.25001V2.83325ZM22.1667 6.24992V18.7499H23.6667V6.24992H22.1667ZM18.75 22.1666H6.25001V23.6666H18.75V22.1666ZM2.83334 18.7499V6.24992H1.33334V18.7499H2.83334ZM6.25001 22.1666C4.36304 22.1666 2.83334 20.6369 2.83334 18.7499H1.33334C1.33334 21.4653 3.53461 23.6666 6.25001 23.6666V22.1666ZM22.1667 18.7499C22.1667 20.6369 20.637 22.1666 18.75 22.1666V23.6666C21.4654 23.6666 23.6667 21.4653 23.6667 18.7499H22.1667ZM18.75 2.83325C20.637 2.83325 22.1667 4.36295 22.1667 6.24992H23.6667C23.6667 3.53452 21.4654 1.33325 18.75 1.33325V2.83325ZM6.25001 1.33325C3.53461 1.33325 1.33334 3.53452 1.33334 6.24992H2.83334C2.83334 4.36295 4.36304 2.83325 6.25001 2.83325V1.33325ZM7.29168 5.95825H17.7083V4.45825H7.29168V5.95825ZM19.0417 7.29159V17.7083H20.5417V7.29159H19.0417ZM17.7083 19.0416H7.29168V20.5416H17.7083V19.0416ZM5.95834 17.7083V7.29159H4.45834V17.7083H5.95834ZM7.29168 19.0416C6.5553 19.0416 5.95834 18.4446 5.95834 17.7083H4.45834C4.45834 19.2731 5.72687 20.5416 7.29168 20.5416V19.0416ZM19.0417 17.7083C19.0417 18.4446 18.4447 19.0416 17.7083 19.0416V20.5416C19.2732 20.5416 20.5417 19.2731 20.5417 17.7083H19.0417ZM17.7083 5.95825C18.4447 5.95825 19.0417 6.55521 19.0417 7.29159H20.5417C20.5417 5.72678 19.2732 4.45825 17.7083 4.45825V5.95825ZM7.29168 4.45825C5.72687 4.45825 4.45834 5.72678 4.45834 7.29159H5.95834C5.95834 6.55521 6.5553 5.95825 7.29168 5.95825V4.45825Z" fill="white"/>
+                        </svg>                        
+                </div>
+                <h4 class="text-xl font-medium text-gray-700">Время</h4>
+                <p class="text-base text-center text-gray-500">Мы ценим ваше время, и по этому оказываем услуги в сжатые сроки, без записей "за 3 недели"!</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Section 4 -->
+<section class="flex items-center justify-center py-20 bg-white min-w-screen">
+    <div class="px-16 bg-white">
+        <div class="container flex flex-col items-start mx-auto lg:items-center">
+            <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-blue-500 uppercase lg:justify-center lg:items-center">НАМ ДОВЕРЯЮТ</p>
+
+
+            <h2 class="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="absolute right-0 hidden w-12 h-12 -mt-2 -mr-16 text-gray-200 lg:inline-block" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" class="">
+                </path>
+            </svg>
+                Посмотрите что о нас говорят</h2>
+                <div class="block w-full h-0.5 max-w-lg mt-6 bg-purple-100 rounded-full"></div>
+
+            <div class="items-center justify-center w-full mt-12 mb-4 lg:flex">
+                <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
+                    <div class="flex items-center justify-center">
+                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1700&amp;q=80" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col items-start justify-center">
+                            <h4 class="font-bold text-gray-800">Никита Тимшин</h4>
+                            <p class="text-gray-600"></p>
+                        </div>
+                    </div>
+                    <blockquote class="mt-8 text-lg text-gray-500">"Лучшая клиника, не ожидал такого подхода"</blockquote>
+                </div>
+                <div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
+                    <div class="flex items-center justify-center">
+                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                            <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col items-start justify-center">
+                            <h4 class="font-bold text-gray-800">Ирада Зейналова</h4>
+                            <p class="text-gray-600"></p>
+                        </div>
+                    </div>
+                    <blockquote class="mt-8 text-lg text-gray-500">"Спасибо за вашу заботу, рекомендую всем своим знакомым"</blockquote>
+                </div>
+                <div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
+                    <div class="flex items-center justify-center">
+                        <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                            <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col items-start justify-center">
+                            <h4 class="font-bold text-gray-800">Павел Вохмянин</h4>
+                            <p class="text-gray-600"></p>
+                        </div>
+                    </div>
+                    <blockquote class="mt-8 text-lg text-gray-500">"Мне 44 года и я лечился во многих стоматологиях, но никогда не видел такую как Dental, был приятно удивлен сервисом - 5 баллов!"</blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5 -->
+<section class="text-gray-700 bg-white body-font">
+    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
+        <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">Dental</a>
+        <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 Dental</p>
+        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Facebook</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" class=""></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Twitter</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">GitHub</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Dribbble</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </span>
+    </div>
+</section>
+
+<!-- AlpineJS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+
+</body>
+</html> 
